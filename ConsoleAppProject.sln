@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeString", "Palindr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Looping", "Looping\Looping.csproj", "{5F321C5A-E166-4E2D-AB5B-3AC78B340CC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadandWriteonDocument", "ReadDocumentFile\ReadandWriteonDocument.csproj", "{E64537B5-B168-4407-9CD3-A8A2B11EA010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{756C589D-BF6D-4535-86B9-9C9614707E7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{5F321C5A-E166-4E2D-AB5B-3AC78B340CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F321C5A-E166-4E2D-AB5B-3AC78B340CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F321C5A-E166-4E2D-AB5B-3AC78B340CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64537B5-B168-4407-9CD3-A8A2B11EA010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64537B5-B168-4407-9CD3-A8A2B11EA010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64537B5-B168-4407-9CD3-A8A2B11EA010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64537B5-B168-4407-9CD3-A8A2B11EA010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756C589D-BF6D-4535-86B9-9C9614707E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756C589D-BF6D-4535-86B9-9C9614707E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756C589D-BF6D-4535-86B9-9C9614707E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756C589D-BF6D-4535-86B9-9C9614707E7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

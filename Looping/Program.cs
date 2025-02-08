@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,13 +15,13 @@ namespace Looping
             while(i <= number)
             {
                 Console.WriteLine(i);
-                i++;
+                //i++;
             }
 
             return "While loop completed";
         }
 
-        public string CheckEven(int number) {
+        public string EvenNumberCheck(int number) {
 
             int i = 0;
             while (i <= number)
@@ -36,13 +37,27 @@ namespace Looping
 
         static void Main(string[] args)
         {
-            
+            string[] options = {"1.While Loop", "2.Even Number" };
+            Console.WriteLine("Please enter a option(1/2):");
+            foreach(string o  in options) Console.WriteLine(o);
+            int option = Convert.ToInt16(Console.ReadLine());
+
+            Looping loop = new Looping();
+
             Console.WriteLine("Please enter the number");
             int count = Convert.ToInt16(Console.ReadLine());
 
-            Looping loop = new Looping();
-            Console.WriteLine(loop.whileloop(count));
-            Console.WriteLine(loop.CheckEven(count));
+            switch (option)
+            {
+                
+                case 1:
+                    Console.WriteLine(loop.whileloop(count));
+                    break;
+                case 2:
+                    Console.WriteLine(loop.EvenNumberCheck(count));
+                    break;
+                    
+            }
 
             Console.Read();
         }
